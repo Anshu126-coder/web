@@ -1,0 +1,98 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 98%;
+}
+header
+{
+    background-color: #333;
+    color:white ;
+    padding: 20px;
+}
+header h1
+{
+    text-align: center;
+}
+nav ul
+{
+    display:flex ;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav ul li a{
+    color:white ;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration:underline ;
+}
+/* -------------header-ended-------------------------- */
+.section1{
+    background-color:#dadada ;
+    padding: 50px;
+}
+.section1 h2{
+    text-align: center;
+}
+.project-list{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.project{
+    background-color: white;
+    border: 1px solid #ddd;
+    padding:20px;
+    border-radius: 5px;
+    width:20% ;
+    margin: 50px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+/*--------------Section1-ended-------------------*/
+.section2{
+    background-color: #333;
+    color: white;
+    padding: 50px;
+}
+.section2 h3{
+    text-align:center ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+}
+form input,
+form textarea{
+    width:100%;
+    max-width: 400px;
+    padding:10px; 
+    margin-bottom:30px ;
+    border-radius:5px ;
+}
+footer{
+    background-color:#222;
+    color:white ;
+    text-align: center;
+    padding:20px 0 ;
+}
+ form button{
+    padding:10px 20px ;
+    background-color:#007BFF ;
+    color: white;
+    border-radius:5px ;
+    border: none;
+    cursor:pointer
+}
+form button:hover{
+    background-color: #0056B3;
+}
+
+
+
+
